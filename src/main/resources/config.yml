@@ -1,0 +1,17 @@
+# /sit Command
+sit-command:
+  enable-command: true
+  command-disabled-message: "§cThe /sit command is disabled"
+  not-on-ground-message: "§cYou can only sit down on the ground"
+  sender-is-not-player-message: "§cOnly player can use the /sit command"
+
+# The message displayed in actionbar when players sit down
+actionbar-message:
+  enable: true
+  message: "§eYou are sitting, press shift to stand up"
+
+# Blocks player can click to sit on it
+chair-blocks:
+  slabs: true
+  stairs: true
+  carpets: true

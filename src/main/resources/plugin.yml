@@ -1,0 +1,8 @@
+name: Sit
+version: '${project.version}'
+main: com.ytleiting.sit.Sit
+api-version: '1.20'
+commands:
+  sit:
+    description: Sit down at your current location
+    usage: /sit
